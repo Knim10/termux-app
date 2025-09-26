@@ -53,6 +53,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
+ * 
+ * Added for M6 T2 Lab Assignment - Kenneth Nimmo
+ * 
  * A service holding a list of {@link TermuxSession} in {@link TermuxShellManager#mTermuxSessions} and background {@link AppShell}
  * in {@link TermuxShellManager#mTermuxTasks}, showing a foreground notification while running so that it is not terminated.
  * The user interacts with the session through {@link TermuxActivity}, but this service may outlive
